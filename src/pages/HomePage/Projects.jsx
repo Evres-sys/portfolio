@@ -1,4 +1,5 @@
 import React from "react";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
   return (
@@ -21,6 +22,15 @@ function Projects() {
               become a better software developer by integrating React into my
               coding structure.
             </p>
+            <a
+              href="https://hackathon-imdb-project.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-gray-800 px-6 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-gray-900 hover:shadow-lg"
+            >
+              <FaExternalLinkAlt size={14} />
+              Open Project in New Tab
+            </a>
           </div>
           <iframe
             src="https://hackathon-imdb-project.vercel.app/"
@@ -48,13 +58,35 @@ function Projects() {
               exact change required in US Currency using the amount due for a
               transaction and the amount received to pay for it.
             </p>
+            <a
+              href="https://react-js-change-calculator.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-gray-800 px-6 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-gray-900 hover:shadow-lg"
+            >
+              <FaExternalLinkAlt size={14} />
+              Open Project in New Tab
+            </a>
           </div>
         </div>
 
         <div className="mt-10 flex flex-col md:flex-row gap-6 items-start">
           <div className="max-w-prose mx-auto">
             <h2 className="font-bold text-xl mb-2">Budget Tracker</h2>
-            <p className="mb-4 text-xl">A simple application designed for easier management of one's income and expenses, the tool summarizes the total earnings and costs of every entry and returns the amount of money remaining.</p>
+            <p className="mb-4 text-xl">
+              A simple application designed for easier management of one's
+              income and expenses, the tool summarizes the total earnings and
+              costs of every entry and returns the amount of money remaining.
+            </p>
+            <a
+              href="https://react200-budget-tracker-beige.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-gray-800 px-6 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-gray-900 hover:shadow-lg"
+            >
+              <FaExternalLinkAlt size={14} />
+              Open Project in New Tab
+            </a>
           </div>
           <iframe
             src="https://react200-budget-tracker-beige.vercel.app/"

@@ -22,7 +22,7 @@ function Contact() {
         data-aos="fade-up"
       >
         <h2 className="mb-6 text-center text-3xl font-bold text-gray-800">
-          Contact Me
+          Contact Me!
         </h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="flex flex-col gap-4 sm:flex-row text-gray-800">
