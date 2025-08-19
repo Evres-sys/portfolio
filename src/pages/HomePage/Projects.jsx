@@ -56,7 +56,7 @@ function Projects() {
             ></iframe>
           ) : (
             <img
-              src="/public/screencapture-hackathon-imdb-project-vercel-app-2025-08-06-14_46_38.png"
+              src="/screencapture-hackathon-imdb-project-vercel-app-2025-08-06-14_46_38.png"
               alt="Hackathon project screenshot"
               className="md:w-1/2 w-full rounded-lg border border-gray-300 shadow-md"
             />
@@ -74,7 +74,7 @@ function Projects() {
             ></iframe>
           ) : (
             <img
-              src="/public/screencapture-react-js-change-calculator-vercel-app-2025-08-06-15_00_39.png"
+              src="/screencapture-react-js-change-calculator-vercel-app-2025-08-06-15_00_39.png"
               alt="Hackathon project screenshot"
               className="md:w-1/2 w-full rounded-lg border border-gray-300 shadow-md"
             />
@@ -144,7 +144,7 @@ function Projects() {
             ></iframe>
           ) : (
             <img
-              src="/public/screencapture-react200-budget-tracker-beige-vercel-app-2025-08-06-15_01_00.png"
+              src="/screencapture-react200-budget-tracker-beige-vercel-app-2025-08-06-15_01_00.png"
               alt="Hackathon project screenshot"
               className="md:w-1/2 w-full rounded-lg border border-gray-300 shadow-md"
             />
