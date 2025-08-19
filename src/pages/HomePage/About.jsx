@@ -36,12 +36,12 @@ function About() {
         <h1 className="text-2xl font-bold text-center mb-6">My Resume</h1>
         <iframe
           id="resume-frame"
-          src="Master%20Resume.pdf"
+          src="/Master%20Resume.pdf"
           title="Resume"
           width="100%"
           height="800"
-          className="border"
-        ></iframe>
+          className="border-none rounded-md shadow-md"
+        />
       </div>
       <br />
       <p>Add Widgets?</p>

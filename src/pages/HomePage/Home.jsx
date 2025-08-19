@@ -17,12 +17,13 @@ function Home() {
         id="home"
         className="scroll-mt-90 min-h-screen flex flex-col items-center text-center"
       >
-        <div className="font-bold">
+        <div className="absolute top-50 left-0 w-full h-[300px] bg-purple-500 opacity-30 blur-[150px] z-0"></div>
+        <div className="font-bold relative z-10">
           <h1 className="text-5xl">Cong Chi Tran</h1>
           <p className="mt-4 text-2xl">Junior Software Developer, Veteran</p>
         </div>
 
-        <div className="mt-4 flex flex-col items-center gap-4 sm:flex-row sm:gap-5">
+        <div className="mt-4 flex flex-col items-center gap-4 sm:flex-row sm:gap-5 relative z-10">
           <a
             href="https://www.linkedin.com/in/congchitran/"
             target="_blank"
