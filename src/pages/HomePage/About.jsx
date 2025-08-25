@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function About() {
   const handlePrint = () => {
@@ -25,12 +26,37 @@ function About() {
         <br />I am and will continue to be eager for my next step on my path to
         becoming an experienced developer!
       </p>
-      <ul className="mt-4 text-lg">
+      <ul className="mt-4 text-lg list-disc list-inside">
         <li>Accountable</li>
         <li>Seeking Improvement</li>
         <li>Fast-Learner</li>
         <li>Team-Member</li>
       </ul>
+      <br />
+      <h2 className="text-center text-2xl font-bold mb-6">My Skills</h2>
+      <div className="flex flex-wrap justify-center gap-3">
+        {[
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "Git",
+          "Tailwind CSS",
+          "MongoDB",
+          "Vite",
+        ].map((skill, i) => (
+          <motion.span
+            key={skill}
+            initial={{ opacity: 0, scale: 0.8, y: 20 }}
+            whileInView={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{ duration: 0.3, delay: i * 0.1 }} // small stagger effect
+            className="rounded-md bg-gray-700 px-4 py-2 text-sm font-medium text-white shadow-md hover:bg-gray-600 transition"
+          >
+            {skill}
+          </motion.span>
+        ))}
+      </div>
       <br />
       <div className="mx-auto max-w-4xl">
         <h1 className="text-2xl font-bold text-center mb-6">My Resume</h1>
@@ -44,7 +70,6 @@ function About() {
         />
       </div>
       <br />
-      <p>Add Widgets?</p>
     </section>
   );
 }
