@@ -62,7 +62,7 @@ function About() {
         <h1 className="text-2xl font-bold text-center mb-6">My Resume</h1>
         <iframe
           id="resume-frame"
-          src="/Master%20Resume.pdf"
+          src="/MasterResume.pdf"
           title="Resume"
           width="100%"
           height="800"
